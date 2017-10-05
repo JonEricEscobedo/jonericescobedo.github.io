@@ -5,7 +5,11 @@
     <title>Jon Eric Escobedo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- normalize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" />
+
+    <!-- WOW animation CSS -->
+    <link rel="stylesheet" href="./animate.css">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -26,7 +30,7 @@
           <div class="">
             <h1 id="name">jon eric escobedo</h1>
           </div>
-          <div class="wrapper-header__hero">
+          <div class="wrapper-header__hero wow bounceInDown">
             <h1 id="hero">full-stack engineer</h1>
           </div>
           <div>
@@ -42,7 +46,7 @@
         <!-- Safe California -->
         <div class="wrapper-applications row-white">
 
-          <div class="wrapper-applications__screenshot container">
+          <div class="wrapper-applications__screenshot container wow zoomIn">
             <a href="http://recordit.co/bu20J8simZ" target="_blank"><img src="./assets/screenshots/safe-mockup.png" alt="A screen capture of the Safe California splash page which features El Capitan in Yosemite Valley" width="100%"></a>
           </div>
 
@@ -75,7 +79,7 @@
         <!-- BestFit -->
         <div class="wrapper-applications row-grey">
 
-          <div class="wrapper-applications__screenshot container">
+          <div class="wrapper-applications__screenshot container wow zoomIn">
             <a href="http://www.bestfitsearch.info" target="_blank"><img src="./assets/screenshots/bestfit-mockup.png" alt="A screen capture of the BestFit splash page that describes the applications features: Easy job searching, Resume insights, Skills metrics, and an Application tracker" width="100%"/></a>
           </div>
 
@@ -110,7 +114,7 @@
         <!-- What's In The Pantry -->
         <div class="wrapper-applications row-white">
 
-          <div class="wrapper-applications__screenshot container">
+          <div class="wrapper-applications__screenshot container wow zoomIn">
             <a href="http://recordit.co/dQPtQgDA8b" target="_blank"><img src="./assets/screenshots/pantry-mockup.png" alt="A screen capture of the What's In The Pantry search feature which includes ingredient filters and photos of the search result recipes" width="100%" /></a>
           </div>
 
@@ -145,7 +149,7 @@
         <!-- Valence -->
         <div class="wrapper-applications row-grey">
 
-          <div class="wrapper-applications__screenshot container">
+          <div class="wrapper-applications__screenshot container wow zoomIn">
             <a href="http://recordit.co/6F1obh7lO2" target="_blank"><img src="./assets/screenshots/valence-mockup.png" alt="A screen capture of the Valence splash page which features the Pacific Ocean at sunset off the Santa Monica Pier" width="100%"/></a>
           </div>
 
@@ -180,7 +184,7 @@
       <!-- Contact -->
       <div class="grid-contact row-white">
         <div class="wrapper-contact container">
-          <div class="wrapper-contact__photo">
+          <div class="wrapper-contact__photo wow zoomIn">
             <img src="./assets/joneric-aws-small.png" width="100%" class="profile-pic"/>
           </div>
           <div class="wrapper-contact__info">
@@ -200,7 +204,12 @@
 
     </div>
 
+    <!-- WOW JS & Initialization -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
+    <script>
+      new WOW().init();
+    </script>
 
   </body>
 </html>
