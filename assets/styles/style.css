@@ -158,6 +158,14 @@ a:focus {
   margin-right: auto
 }
 
+.contact__hide {
+  display: none;
+}
+
+.contact__center {
+  text-align: center;
+}
+
 /* =============================================================================
  CSS GRID FOR SCREENS LARGER THAN 600px
 ============================================================================= */
@@ -239,4 +247,13 @@ a:focus {
   .contact--container {
     margin-left: 0;
   }
+
+  .contact__center {
+    text-align: left;
+  }
+
+  .contact__hide {
+    display: block;
+  }
+
 }
